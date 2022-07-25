@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-toolbar>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  
+  <div  class="body">
+    <form [formGroup]="userForm" (ngSubmit)="logForm()">
+      <h1 style="display:flex;justify-content: center;">New user</h1>
+      <img src="../../../../assets/images/profil.png" />
+
+      <ion-item lines="none">
+        <ion-label>name</ion-label>
+        <ion-input type="text" formControlName="name" style="border: 1px solid grey;border-radius:10px"></ion-input>
+      </ion-item>
+      <ion-item lines="none">
+        <ion-label>username</ion-label>
+        <ion-input formControlName="username" style="border: 1px solid grey;border-radius:10px"></ion-input>
+      </ion-item>
+      <ion-item lines="none">
+        <ion-label>email</ion-label>
+        <ion-input formControlName="email" email style="border: 1px solid grey;border-radius:10px"></ion-input>
+      </ion-item>
+      <div style="display:flex ;justify-content: center;">
+        <ion-button type="submit" [disabled]="!userForm.valid" color="primary">Submit</ion-button>
+      </div>
+    </form>
+
+  </div>
+  
+</ion-content>

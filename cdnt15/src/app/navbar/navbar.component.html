@@ -1,0 +1,16 @@
+<ion-header>
+
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button autoHide="false" *ngFor="let page of pages">
+          <ion-item lines="none" class="menuitem" (click)="goToPage(page)">
+            <ion-icon slot="start" [name]="page?.icon"></ion-icon>
+            <ion-label>{{page?.title}}</ion-label>
+          </ion-item>
+      </ion-menu-button>
+  
+    </ion-buttons>
+  </ion-toolbar>
+  
+
+</ion-header>
