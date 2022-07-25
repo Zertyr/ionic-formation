@@ -1,0 +1,117 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Lucy",
+      "username": "Ballmer",
+      "email": "lucyb56@gmail.com",
+      "website": "",
+      "address": {
+        "street": "Rue du maréchal mortier",
+        "suite": "57",
+        "city": "Le Cateau",
+        "zipcode": "59360"
+      },
+      "company": {
+        "name": "Aston"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Anna",
+      "username": "Smith",
+      "email": "annasmith23@gmail.com",
+      "website": "",
+      "address": {
+        "street": "Rue du maréchal mortier",
+        "suite": "57",
+        "city": "Le Cateau",
+        "zipcode": "59360"
+      },
+      "company": {
+        "name": "Aston"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Roger",
+      "username ": "Bacon",
+      "email": "rogerbacon12@yahoo.com",
+      "website": "",
+      "address": {
+        "street": "Rue du maréchal mortier",
+        "suite": "57",
+        "city": "Le Cateau",
+        "zipcode": "59360"
+      },
+      "company": {
+        "name": "Aston"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Robert",
+      "username ": "Bacon",
+      "email": "rogerbacon12@yahoo.com",
+      "website": "",
+      "address": {
+        "street": "Rue du maréchal mortier",
+        "suite": "57",
+        "city": "Le Cateau",
+        "zipcode": "59360"
+      },
+      "company": {
+        "name": "Aston"
+      }
+    },
+    {
+      "id": 5,
+      "name": "damien",
+      "username ": "Leusiere",
+      "email": "rogerbacon12@yahoo.com",
+      "website": "",
+      "address": {
+        "street": "Rue du maréchal mortier",
+        "suite": "57",
+        "city": "Le Cateau",
+        "zipcode": "59360"
+      },
+      "company": {
+        "name": "Aston"
+      }
+    },
+    {
+      "id": 6,
+      "name": "test",
+      "username": "gros",
+      "email": "test@gmail.com",
+      "address": {
+        "street": "Rue du maréchal mortier",
+        "suite": "57",
+        "city": "Le Cateau",
+        "zipcode": "59360",
+        "geo": {
+          "lat": "",
+          "lng": ""
+        }
+      },
+      "phone": "0700000000",
+      "website": "",
+      "company": {
+        "name": "Aston",
+        "catchPhrase": "",
+        "bs": ""
+      }
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "cdnt15",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

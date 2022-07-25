@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>{{this.user?.name}}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div  class="body">
+
+    <div>
+      <img src="../../../../assets/images/profil.png" />
+    </div>
+    <div>
+      <p> <span class="infoTitle">Nom :</span> {{this.user?.username}}</p>
+      <p> <span class="infoTitle">Email :</span> {{this.user?.email}}</p>
+      <p> <span class="infoTitle">Adresse :</span> {{this.user?.address.suite}} {{this.user?.address.street}}, {{this.user?.address.zipcode}} {{this.user?.address.city}}</p>
+      <p> <span class="infoTitle">Compagnie :</span> {{this.user?.company.name}}</p>
+
+    </div>
+
+    <ion-button (click)="onback()" expand="block" fill="clear" shape="round">
+      Retour
+    </ion-button>
+  </div>
+  
+</ion-content>

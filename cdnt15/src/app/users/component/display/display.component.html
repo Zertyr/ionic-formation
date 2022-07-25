@@ -1,0 +1,27 @@
+<ion-card>
+  <ion-card-subtitle>
+    <img src="../../../../assets/images/profil.png">
+  </ion-card-subtitle>
+  <ion-card-header>
+    <ion-card-title>{{user.name}}</ion-card-title>
+    <ion-card-subtitle>{{user.email}}</ion-card-subtitle>
+  </ion-card-header>
+  <ion-card-content>
+    <!-- <div>
+      adresse : {{user.address.suite}} {{user.address.street}}, {{user.address.zipcode}} {{user.address.city}}
+    </div> -->
+    <!-- <div>
+      company : {{user.company.name}}
+    </div> -->
+    <div class="button-menu">
+      <ion-button (click)="goToUser(user.id)" expand="block" fill="clear" shape="round">
+        <ion-icon name="eye"></ion-icon>
+        Voir
+      </ion-button>
+      <ion-button color="danger" (click)="deleteUser(user.id)" expand="block" fill="clear" shape="round">
+        <ion-icon name="trash"></ion-icon>
+        Supprimer
+      </ion-button>
+    </div>
+  </ion-card-content>
+</ion-card>

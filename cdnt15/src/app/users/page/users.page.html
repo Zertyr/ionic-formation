@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>users</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="addButton">
+    <ion-button (click)="addUser()"  shape="round">
+      <ion-icon slot="icon-only" name="add"></ion-icon>
+    </ion-button>
+  </div>
+  <div *ngFor="let user of users">
+
+    <app-display [user]="user">
+    
+    </app-display>
+  </div>
+</ion-content>
